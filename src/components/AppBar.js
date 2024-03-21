@@ -32,14 +32,14 @@ export default function NavAppBar() {
       <AppBar color="transparent" position="static" elevation={0}>
         <Container maxWidth="lg">
           <Toolbar>
-            <Typography variant="h6" className={classes.logo}>
+            {/* <Typography variant="h6" className={classes.logo}>
               <a href="/">
                 <img src="/assets/images/logo.png" alt="logo" width="40" />
               </a>
               <VersionBadge />
-            </Typography>
+            </Typography> */}
 
-            <Button color="inherit" href="/about/" className={classes.button}>
+            {/* <Button color="inherit" href="/about/" className={classes.button}>
               {t("about")}
             </Button>
 
@@ -49,9 +49,9 @@ export default function NavAppBar() {
               rel="noopener"
             >
               <GitHubIcon />
-            </IconButton>
+            </IconButton> */}
 
-            <Settings />
+            {/* <Settings /> */}
           </Toolbar>
         </Container>
       </AppBar>

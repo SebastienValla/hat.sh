@@ -18,14 +18,7 @@ export default function Hero() {
   const classes = useStyles();
   return (
     <Container maxWidth="sm" component="main" className={classes.heroContent}>
-      <Typography
-        variant="h5"
-        align="center"
-        gutterBottom
-        className={classes.heroTitle}
-      >
-        {"Hat.sh"}
-      </Typography>
+
       <Typography
         variant="subtitle1"
         align="center"
